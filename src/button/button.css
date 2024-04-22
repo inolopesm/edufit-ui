@@ -1,0 +1,39 @@
+.btn {
+  @apply border-2 duration-300 font-medium px-4 rounded inline-flex items-center justify-center;
+}
+
+.btn.btn-black {
+  @apply border-gray-900;
+}
+
+.btn.btn-white {
+  @apply border-white;
+}
+
+.btn.btn-sm {
+  @apply h-8 text-xs;
+}
+
+.btn.btn-md {
+  @apply h-10 text-sm;
+}
+
+.btn.btn-lg {
+  @apply h-12 text-base;
+}
+
+.btn.btn-filled.btn-black {
+  @apply bg-gray-900 text-white hover:bg-gray-800;
+}
+
+.btn.btn-outlined.btn-black {
+  @apply text-gray-900 hover:bg-gray-900 hover:text-white;
+}
+
+.btn.btn-filled.btn-white {
+  @apply bg-white text-gray-900 hover:bg-gray-100;
+}
+
+.btn.btn-outlined.btn-white {
+  @apply text-white hover:bg-white hover:text-black;
+}

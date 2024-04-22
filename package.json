@@ -1,0 +1,31 @@
+{
+  "name": "@edufit/ui",
+  "description": "",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./src/index.js",
+  "scripts": {
+    "storybook": "storybook dev -p 6006 -c storybook",
+    "build-storybook": "storybook build -c storybook",
+    "format": "prettier -w src"
+  },
+  "dependencies": {
+    "postcss-js": "^4.0.1"
+  },
+  "devDependencies": {
+    "@storybook/addon-backgrounds": "^8.0.8",
+    "@storybook/html-vite": "^8.0.8",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.14",
+    "storybook": "^8.0.8",
+    "tailwindcss": "^3.4.3"
+  },
+  "peerDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "storybook": "^8.0.8",
+    "tailwindcss": "^3.4.3"
+  }
+}
