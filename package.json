@@ -1,10 +1,10 @@
 {
   "name": "@edufit/ui",
   "description": "",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "type": "module",
   "main": "./src/main.js",
-  "files": ["./src/main.js", "./src/**/*.css"],
+  "files": ["./src/main.js", "./src/**/*.css", "!./src/tailwind.css"],
   "scripts": {
     "storybook": "storybook dev -p 6006 -c storybook",
     "build-storybook": "storybook build -c storybook",

@@ -23,6 +23,7 @@ function getComponents(name) {
  */
 export default function edufit() {
   return ({ addComponents }) => {
+    addComponents(getComponents("alert"));
     addComponents(getComponents("button"));
     addComponents(getComponents("input"));
   };
