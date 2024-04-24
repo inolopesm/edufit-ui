@@ -4,10 +4,14 @@
   "version": "1.1.0",
   "type": "module",
   "main": "./src/main.js",
-  "files": ["./src/main.js", "./src/**/*.css", "!./src/tailwind.css"],
+  "files": [
+    "./src/main.js",
+    "./src/**/*.css"
+  ],
   "scripts": {
-    "storybook": "storybook dev -p 6006 -c storybook",
-    "build-storybook": "storybook build -c storybook",
+    "dev": "nodemon --watch src -e css,html,js node_modules/storybook dev -p 6006 --no-open",
+    "storybook": "storybook dev -p 6006 --no-open",
+    "build-storybook": "storybook build",
     "format": "prettier -w src"
   },
   "dependencies": {
@@ -17,6 +21,7 @@
     "@storybook/addon-backgrounds": "^8.0.8",
     "@storybook/html-vite": "^8.0.8",
     "autoprefixer": "^10.4.19",
+    "nodemon": "^3.1.0",
     "postcss": "^8.4.38",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.14",
