@@ -1,7 +1,6 @@
 {
   "editor.tabSize": 2,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[html]": { "editor.formatOnSave": true },
   "[tailwindcss]": { "editor.formatOnSave": true },
   "[javascript]": { "editor.formatOnSave": true },
   "files.associations": { "*.css": "tailwindcss" }

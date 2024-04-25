@@ -1,5 +1,5 @@
 .btn {
-  @apply inline-flex items-center justify-center rounded border-2 px-4 font-medium duration-300;
+  @apply inline-flex select-none items-center justify-center gap-2 whitespace-nowrap rounded border-2 font-medium duration-300;
 }
 
 .btn.btn-black {
@@ -11,15 +11,19 @@
 }
 
 .btn.btn-sm {
-  @apply h-8 text-xs;
+  @apply h-8 px-3 text-xs;
 }
 
 .btn.btn-md {
-  @apply h-10 text-sm;
+  @apply h-10 px-4 text-sm;
 }
 
 .btn.btn-lg {
-  @apply h-12 text-base;
+  @apply h-12 px-5 text-base;
+}
+
+.btn.btn-icon {
+  @apply h-10 w-10;
 }
 
 .btn.btn-filled.btn-black {
