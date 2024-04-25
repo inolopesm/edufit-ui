@@ -4,7 +4,10 @@
   "version": "1.2.1",
   "type": "module",
   "main": "./src/main.js",
-  "files": ["./src/main.js", "./src/**/*.css"],
+  "files": [
+    "./src/main.js",
+    "./src/**/*.css"
+  ],
   "scripts": {
     "dev": "nodemon --watch src -e css,html,js node_modules/storybook dev -p 6006 --no-open",
     "storybook": "storybook dev -p 6006 --no-open",
@@ -15,6 +18,7 @@
     "postcss-js": "^4.0.1"
   },
   "devDependencies": {
+    "@fontsource/roboto": "^5.0.13",
     "@storybook/addon-backgrounds": "^8.0.8",
     "@storybook/html-vite": "^8.0.8",
     "autoprefixer": "^10.4.19",
